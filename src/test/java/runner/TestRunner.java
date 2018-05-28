@@ -13,7 +13,7 @@ import org.testng.annotations.DataProvider;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
-@CucumberOptions(features = "E:\\feature", glue = { "seleniumgluecode" }, tags = {
+@CucumberOptions(features = "${JENKINS_HOME}", glue = { "seleniumgluecode" }, tags = {
 		"~@Ignore" }, format = { "pretty", "html:target/cucumber-reports/cucumber-pretty",
 				"json:target/cucumber-reports/CucumberTestReport.json", "rerun:target/cucumber-reports/rerun.txt" })
 public class TestRunner {
