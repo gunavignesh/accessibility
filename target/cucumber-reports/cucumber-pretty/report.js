@@ -95,21 +95,21 @@ formatter.match({
   "location": "Accessibility.openpage(String)"
 });
 formatter.result({
-  "duration": 6483278464,
+  "duration": 5038084427,
   "status": "passed"
 });
 formatter.match({
   "location": "Accessibility.opentool()"
 });
 formatter.result({
-  "duration": 9637584,
+  "duration": 53361740,
   "status": "passed"
 });
 formatter.match({
   "location": "Accessibility.excelwrite()"
 });
 formatter.result({
-  "duration": 15234296511,
+  "duration": 15436691678,
   "status": "passed"
 });
 formatter.scenario({
@@ -148,21 +148,21 @@ formatter.match({
   "location": "Accessibility.openpage(String)"
 });
 formatter.result({
-  "duration": 4251605720,
+  "duration": 5145187040,
   "status": "passed"
 });
 formatter.match({
   "location": "Accessibility.opentool()"
 });
 formatter.result({
-  "duration": 9324386,
+  "duration": 25756207,
   "status": "passed"
 });
 formatter.match({
   "location": "Accessibility.excelwrite()"
 });
 formatter.result({
-  "duration": 10053507608,
+  "duration": 10029243987,
   "status": "passed"
 });
 });

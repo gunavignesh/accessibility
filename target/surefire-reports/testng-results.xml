@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results total="1" passed="1" failed="0" skipped="0">
+<testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2018-05-22T09:30:20Z" name="Suite" finished-at="2018-05-22T09:31:10Z" duration-ms="49694">
+  <suite name="Suite" duration-ms="58631" started-at="2018-06-13T09:40:54Z" finished-at="2018-06-13T09:41:53Z">
     <groups>
       <group name="cucumber">
-        <method signature="TestRunner.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.TestRunner@76505305]" name="feature" class="runner.TestRunner"/>
+        <method signature="TestRunner.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.TestRunner@5056dfcb]" name="feature" class="runner.TestRunner"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2018-05-22T09:30:20Z" name="Test" finished-at="2018-05-22T09:31:10Z" duration-ms="49694">
+    <test name="Test" duration-ms="58631" started-at="2018-06-13T09:40:54Z" finished-at="2018-06-13T09:41:53Z">
       <class name="runner.TestRunner">
-        <test-method is-config="true" signature="Browser(java.lang.String)[pri:0, instance:runner.TestRunner@76505305]" started-at="2018-05-22T15:00:20Z" name="Browser" finished-at="2018-05-22T15:00:26Z" duration-ms="5945" status="PASS">
+        <test-method status="PASS" signature="Browser(java.lang.String)[pri:0, instance:runner.TestRunner@5056dfcb]" name="Browser" is-config="true" duration-ms="21756" started-at="2018-06-13T15:10:54Z" finished-at="2018-06-13T15:11:16Z">
           <params>
             <param index="0">
               <value>
@@ -21,11 +21,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Browser -->
-        <test-method is-config="true" signature="setUpClass()[pri:0, instance:runner.TestRunner@76505305]" started-at="2018-05-22T15:00:26Z" name="setUpClass" finished-at="2018-05-22T15:00:26Z" duration-ms="174" status="PASS">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:runner.TestRunner@5056dfcb]" name="setUpClass" is-config="true" duration-ms="258" started-at="2018-06-13T15:11:16Z" finished-at="2018-06-13T15:11:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.TestRunner@76505305]" started-at="2018-05-22T15:00:26Z" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2018-05-22T15:01:09Z" duration-ms="42975" status="PASS">
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.TestRunner@5056dfcb]" name="feature" duration-ms="35947" started-at="2018-06-13T15:11:16Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2018-06-13T15:11:52Z">
           <params>
             <param index="0">
               <value>
@@ -36,11 +36,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- feature -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runner.TestRunner@76505305]" started-at="2018-05-22T15:01:09Z" name="tearDownClass" finished-at="2018-05-22T15:01:09Z" duration-ms="220" status="PASS">
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:runner.TestRunner@5056dfcb]" name="tearDownClass" is-config="true" duration-ms="313" started-at="2018-06-13T15:11:52Z" finished-at="2018-06-13T15:11:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
-        <test-method is-config="true" signature="close()[pri:0, instance:runner.TestRunner@76505305]" started-at="2018-05-22T15:01:09Z" name="close" finished-at="2018-05-22T15:01:10Z" duration-ms="320" status="PASS">
+        <test-method status="PASS" signature="close()[pri:0, instance:runner.TestRunner@5056dfcb]" name="close" is-config="true" duration-ms="245" started-at="2018-06-13T15:11:52Z" finished-at="2018-06-13T15:11:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->

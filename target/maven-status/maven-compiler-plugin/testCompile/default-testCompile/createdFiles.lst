@@ -1,4 +1,3 @@
 seleniumgluecode\Accessibility.class
-library\DataProviderInstance.class
 runner\TestRunner.class
 library\DataProviderBean.class
